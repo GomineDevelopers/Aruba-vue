@@ -1,0 +1,120 @@
+/*图标font的样式*/
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+/*tab激活状态的字体颜色*/
+.van-tab--active{
+    color:#6bb44e;
+}
+
+/*类型是card的tab的字体*/
+.cardTab .van-tab{
+    font-size: 12px;
+}
+
+/*农业气象中tab的样式*/
+.agriculture_tab .van-tabs__nav {
+    background-color: transparent;
+}
+
+.agriculture_tab .van-tab {
+    background-color: transparent;
+    color:#fff;
+}
+
+.agriculture_tab .van-tab--active{
+    color:#fff;
+}
+.agriculture_tab .van-tabs__line{
+    background-color:#fff;
+}
+
+.van-tabs__line{
+    background-color: #6bb44e;
+}
+
+/*查看更多的字体*/
+.read_more{
+    color:#6bb44e;
+    text-align: center;
+}
+/*列表中的下边框线*/
+.bottom_line{
+    border-bottom : 1px solid #d9d9d9;
+}
+
+/*圆形头像*/
+.avatar{
+    border-radius: 50%;
+    width:34px;
+    height: 34px
+}
+
+.avatar_lager{
+    border-radius: 50%;
+    width:45px;
+    height: 45px;
+    border:1px #75b859 solid;
+}
+
+.avatar_lager_no{
+    border-radius: 50%;
+    width:45px;
+    height: 45px;
+}
+
+/*type=primary 的按钮样式*/
+.van-button--primary {
+    color: #fff;
+    background-color: #6BB44E;
+    border: 1px solid #6BB44E;
+    width: 90vw;
+}
+
+.van-button--plain.van-button--danger{
+    color: #6BB44E;
+    border: 1px solid #6BB44E;
+}
+
+/*底部宽度100%的按钮*/
+.button_100_orange{
+    position: absolute;
+    bottom: 0;
+    background-color: #f29530;
+    color:#ffffff;
+    width: 100vw;
+    text-align: center;
+    height: 38px;
+    line-height: 38px;
+    box-shadow:3px 3px 15px #c9c9c9;
+}
+
+.button_100_green{
+    position: absolute;
+    bottom: 0;
+    background-color: #6BB44E;
+    color:#ffffff;
+    width: 100vw;
+    text-align: center;
+    height: 38px;
+    line-height: 38px;
+    box-shadow:3px 3px 15px #c9c9c9;
+}
+
+
+/*ol,ul{
+    list-style: decimal inside;
+}
+ol li{
+    height: 6vh;
+    line-height: 3vh;
+    padding-bottom: 1vh;
+}
+
+ul{
+    list-style-type: disc;
+}*/
